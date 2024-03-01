@@ -51,7 +51,7 @@ const categoryId = async (id, shortView) => {
         minute = minute % 60;
         let hour = Math.floor(millisecond / 60);
         hour = hour % 24;
-        return `${hour}:${minute}`;
+        return `${hour} hrs ${minute} min ago`;
     }
 
 
